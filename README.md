@@ -60,3 +60,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Configuration 
+
+  - Clone the repo from git.
+  - Open a terminal and go to the directory 'api' `cd api`
+  - Run the command `composer update`
+  - Run the command `php artisan serve`. It will provide you an URL like 'http://127.0.0.1:8000'
+  - Paste the provided URL in the browser and your will see the project successfully running.
+
+### Access API
+  - Type the URL 'http://127.0.0.1:8000/api/data/{parameter}' in browser or you can use `POSTMAN` application to test the API;      
+    where the `parameter` is user's input value. For instance, http://127.0.0.1:8000/api/data/12.85
+  - Your will see output in JSON format.
+  
